@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+  }
+
+  /* Logo Styling */
+  .logo-i {
+    width: 48px;
+    height: 48px;
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+
+  /* Sign-In Header */
+  .sign-in {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+
+  /* Sign-In Box */
+  .signin-box {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Form Inputs */
+  .signin-box input[type="text"],
+  .signin-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fefefe;
+  }
+
+  /* Sign-In Button */
+  .signin-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ea44f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .signin-box button:hover {
+    background-color: #22863a;
+  }
+
+  /* Mini Box for Additional Links */
+  .mini-box {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+
+  /* Additional Links and Text */
+  .forgot-password, .signin-pass, .create-account, .terms {
+    color: #0366d6;
+    font-size: 14px;
+    margin-top: 10px;
+    text-decoration: none;
+   
+  }
+  .forgot-password{
+      margin-left: 80px;
+  }
+
+  .new-account {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .terms {
+    margin-top: 90px;
+    color: #59636E;
+    font-size: 12px;
+  }
+
